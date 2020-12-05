@@ -1,0 +1,43 @@
+body{
+	background: radial-gradient(circle,#fff,#bbb);
+}
+
+.grid-container{
+	margin: 10px;
+	display: grid;
+	grid-template-areas: 
+	"header header header"
+	"header header header"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"footer footer footer"
+	"footer footer footer";
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	height: 92vh;
+}
+
+.grid-item{
+	padding: 0px;
+	margin: 0;
+}
+
+.grid-footer{
+	grid-area: footer;
+}
+
+.grid-header{
+	grid-area: header;
+	background-color: #993333;
+	height: 20px;
+}
+
+.grid-main{
+	grid-area: main;
+}
+
+.grid-aside{
+	grid-area: aside;
+}
+
