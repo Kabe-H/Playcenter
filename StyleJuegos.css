@@ -1,0 +1,10 @@
+.grid_container_PS3{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: repeat(13,1fr);
+}
+
+.grid-item-PS3{
+    width: 80%;
+    object-fit: contain;    
+}
